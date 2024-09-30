@@ -1,0 +1,92 @@
+.listContainer {
+    background-color: #51536e;
+    border-radius: 0.5rem;
+    list-style-type: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 8vh;
+}
+
+.detailsItemContainer{
+    display: flex;
+    gap: 5rem;
+}
+
+.detailsItemContainer h2 {
+    color: #14141f;
+    min-width: 50px;
+    display: flex;
+    justify-content: start;
+    
+}
+
+.detailsItemContainer h4 {
+    margin-top: 0.3rem;
+    color: #0c0c1d;
+    display: flex;
+    justify-content: start;
+    
+}
+
+.checkboxList {
+    margin-right: 0.5rem;
+}
+
+.buttonDelete {
+    display: flex;
+    align-items: center;
+}
+.buttonDelete button {
+    border-radius: 0.6rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    background-color: rgba(161, 70, 67, 0.712);
+    color: #d7d7e0;
+}
+
+.buttonEdit button {
+    border-radius: 0.6rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    background-color: rgba(16, 17, 37, 0.712);
+    color: #d7d7e0;
+    margin-right: 1rem;
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;  
+}
+
+.linkItem h4 {
+    white-space: nowrap;          /* Impede que o texto quebre em várias linhas */
+    overflow: hidden;             /* Oculta qualquer texto que ultrapasse o contêiner */
+    text-overflow: ellipsis;      /* Adiciona "..." ao final do texto cortado */
+    max-width: 150px;             /* Define um limite máximo para a largura do link */
+    display: block;                /* Garante que o elemento seja um bloco para text-overflow funcionar */
+}
+
+.nameItem h4 {
+    white-space: nowrap;          /* Impede que o texto quebre em várias linhas */
+    overflow: hidden;             /* Oculta qualquer texto que ultrapasse o contêiner */
+    text-overflow: ellipsis;      /* Adiciona "..." ao final do texto cortado */
+    max-width: 150px;             /* Define um limite máximo para a largura do link */
+    display: block;  
+}
+
+
+
+
+
+
+

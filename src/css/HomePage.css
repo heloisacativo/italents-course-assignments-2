@@ -1,0 +1,121 @@
+body {
+  background-color: #E0DCC8;
+  font-family: "Poppins", system-ui;
+}
+
+header {
+  display: flex;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #262842;
+}
+
+header img {
+  margin-top: -0.3rem;
+  width: 2%;
+  margin-right: 0.5rem;
+}
+
+.mainContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 4rem;
+  height: 100vh;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.listContainer {
+  max-height: 500px;
+  
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.empty img {
+  width: 40%;
+}
+
+.empty p{
+  font-size: 20px;
+  color: #726868;
+  margin-top: 0.5rem;
+}
+
+  
+  .formMainContainer {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    width: 50%;
+    margin-bottom: 20rem;
+    background-color: #62636e;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 2rem;
+  }
+  
+
+  ul {
+    height: 450px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #262842;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-right: 5rem;
+    border-radius: 0.8em;
+  }
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #b5b5bb;
+  border-radius: 0.2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: 2px solid #b5b5bb;
+}
+
+/* Quando o polegar da barra de rolagem estiver sendo rolado */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+  
+  .completedListContainer ul {
+    max-height: 200px; 
+    overflow-y: scroll; 
+    padding: 10px;
+    background-color: #2e2f3b;
+    border: 1px solid #ccc;
+    border-radius: 0.8em;
+  }
+
+  .emptyListCompleted {
+    color: #726868;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+  }
