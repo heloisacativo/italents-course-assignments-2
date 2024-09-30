@@ -2,13 +2,13 @@
     position: fixed;
     top: 50%; 
     left: 50%; 
-    transform: translate(-50%, -50%); /* Move o modal para o centro exato da tela */
+    transform: translate(-50%, -50%);
     background-color: #262842;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30rem; /* Defina uma largura adequada */
+    width: 30rem;
     padding: 2rem;
     border-radius: 1rem;
     z-index: 1000;
